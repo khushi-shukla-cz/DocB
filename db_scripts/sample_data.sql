@@ -1,0 +1,47 @@
+
+-- Sample Data Script for RecruitEco
+-- This script contains 40 realistic candidate profiles for the Recycling Production Line Manager role.
+
+INSERT INTO candidates (name, years_experience, skills, created_at) VALUES
+('Jordan Miller', 8, '["Safety Compliance", "Lean Manufacturing", "Waste Management"]', NOW()),
+('Alex Rivera', 12, '["Team Leadership", "ISO 14001", "Process Optimization"]', NOW()),
+('Casey Smith', 5, '["Quality Control", "OSHA Standards", "Equipment Maintenance"]', NOW()),
+('Morgan Chen', 15, '["Supply Chain Management", "Waste Management", "Lean Manufacturing"]', NOW()),
+('Taylor Brooks', 3, '["Safety Compliance", "Data Analysis", "Waste Management"]', NOW()),
+('Riley Quinn', 10, '["Team Leadership", "Hazardous Material Handling", "ISO 14001"]', NOW()),
+('Peyton Vance', 7, '["Process Optimization", "Quality Control", "Lean Manufacturing"]', NOW()),
+('Skyler Lane', 9, '["Waste Management", "Safety Compliance", "OSHA Standards"]', NOW()),
+('Avery Reed', 11, '["Equipment Maintenance", "Team Leadership", "Data Analysis"]', NOW()),
+('Parker Gray', 6, '["Hazardous Material Handling", "Safety Compliance", "Quality Control"]', NOW()),
+('Dakota Hayes', 14, '["Lean Manufacturing", "ISO 14001", "Process Optimization"]', NOW()),
+('Charlie Rose', 4, '["Waste Management", "Equipment Maintenance", "Safety Compliance"]', NOW()),
+('Emerson Cole', 13, '["Team Leadership", "Supply Chain Management", "Waste Management"]', NOW()),
+('Finley Blair', 2, '["Data Analysis", "Safety Compliance", "Quality Control"]', NOW()),
+('Hayden Frost', 12, '["Lean Manufacturing", "OSHA Standards", "Process Optimization"]', NOW()),
+('Justice Moon', 8, '["Waste Management", "Hazardous Material Handling", "Safety Compliance"]', NOW()),
+('Kendall Star', 5, '["Team Leadership", "ISO 14001", "Quality Control"]', NOW()),
+('Lennon Sky', 10, '["Equipment Maintenance", "Lean Manufacturing", "Waste Management"]', NOW()),
+('Phoenix Sun', 7, '["Safety Compliance", "Process Optimization", "Data Analysis"]', NOW()),
+('Reese Rain', 9, '["OSHA Standards", "Waste Management", "Team Leadership"]', NOW()),
+('Sage Wind', 11, '["ISO 14001", "Hazardous Material Handling", "Quality Control"]', NOW()),
+('Tatum Stone', 6, '["Lean Manufacturing", "Safety Compliance", "Process Optimization"]', NOW()),
+('Zion Lake', 14, '["Waste Management", "Equipment Maintenance", "Team Leadership"]', NOW()),
+('Amari Hill', 3, '["Data Analysis", "Safety Compliance", "OSHA Standards"]', NOW()),
+('Bellamy Wood', 13, '["Lean Manufacturing", "ISO 14001", "Waste Management"]', NOW()),
+('Campbell Field', 4, '["Quality Control", "Hazardous Material Handling", "Safety Compliance"]', NOW()),
+('Denver Park', 12, '["Team Leadership", "Process Optimization", "Equipment Maintenance"]', NOW()),
+('Ellis Glen', 8, '["Waste Management", "Lean Manufacturing", "Safety Compliance"]', NOW()),
+('Frankie Dale', 5, '["OSHA Standards", "Quality Control", "Data Analysis"]', NOW()),
+('Gentry Lane', 10, '["ISO 14001", "Team Leadership", "Waste Management"]', NOW()),
+('Harlow West', 7, '["Safety Compliance", "Lean Manufacturing", "Process Optimization"]', NOW()),
+('Indigo East', 9, '["Waste Management", "Hazardous Material Handling", "Quality Control"]', NOW()),
+('Jules North', 11, '["Equipment Maintenance", "Safety Compliance", "Team Leadership"]', NOW()),
+('Karsyn South', 6, '["Lean Manufacturing", "OSHA Standards", "Waste Management"]', NOW()),
+('Legacy Port', 14, '["ISO 14001", "Process Optimization", "Safety Compliance"]', NOW()),
+('Marlowe Bay', 2, '["Quality Control", "Waste Management", "Data Analysis"]', NOW()),
+('Nova Cape', 13, '["Team Leadership", "Lean Manufacturing", "Hazardous Material Handling"]', NOW()),
+('Oakley Shore', 3, '["Safety Compliance", "Equipment Maintenance", "Waste Management"]', NOW()),
+('Pax Reef', 12, '["Process Optimization", "ISO 14001", "Quality Control"]', NOW()),
+('Quinn Tide', 8, '["Waste Management", "Safety Compliance", "Lean Manufacturing"]', NOW());
+
+-- Evaluations and Rankings would be generated upon AI assessment in the application.
